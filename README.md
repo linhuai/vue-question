@@ -28,19 +28,19 @@
 		}
 	})
 
-		// js | 使用 computed 属性实现
-		var vm = new Vue({
-			el: '#demo',
-			data: {
-				firstName: 'Foo',
-				lastName: 'Bar'
-			},
-			computed: {
-				fullName () {
-					return this.firstName + ' ' + this.lastName;
-				}
+	// js | 使用 computed 属性实现
+	var vm = new Vue({
+		el: '#demo',
+		data: {
+			firstName: 'Foo',
+			lastName: 'Bar'
+		},
+		computed: {
+			fullName () {
+				return this.firstName + ' ' + this.lastName;
 			}
-		})
+		}
+	})
 
 **总结：**
 
